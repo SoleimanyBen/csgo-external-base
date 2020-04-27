@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\cheats">
+      <UniqueIdentifier>{f7928b1f-0383-4835-9542-38ec7dec02e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk">
+      <UniqueIdentifier>{b23ba992-ce0d-4f18-ab5c-bf810452a6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheats">
+      <UniqueIdentifier>{619245a7-5e1e-499c-8d32-20f8d61cdba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk">
+      <UniqueIdentifier>{90a3a773-da65-44b5-9efb-b86124e6540b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBaseEntityList.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CBasePlayer.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseLocalPlayer.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagement.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Header Files\cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Source Files\cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasePlayer.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseLocalPlayer.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntityList.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagement.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
